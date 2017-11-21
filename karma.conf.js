@@ -6,7 +6,7 @@ module.exports = function(config) {
       files: [
         "js/**/*.js",
       "tests/**/*.spec.js"],
-      browsers:[ "PhantomJS"],
+      browsers:[ "Chrome"],
       reporters: ['spec'],
      /* specReporter: {
         maxLogLines: 5,             // limit number of lines logged per test 
