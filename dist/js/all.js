@@ -9,3 +9,11 @@ var anotherOne = function () {
 
 getWindowHeight();
 anotherOne();
+(function () {
+    var foo = 1;
+
+    foo += 1;
+
+    return foo;
+})();
+//# sourceMappingURL=all.js.map
